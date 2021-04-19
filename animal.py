@@ -1,14 +1,14 @@
 import sys
 
-def branch1():
-    print("iam a Cat")
+def branch2():
+    print("iam a dog")
 
     
 def default():
     print("hello")
 
 def main():
-    if sys.argv[1]== 'branch1':
+    if sys.argv[1]== 'branch2':
         branch1()
     else:
         default()
